@@ -10,5 +10,5 @@ Adds:
 - Nothing Food [FOOD] (Edible, gives speed 25 for 30 seconds, smelted into Nothing Items)
 
 
-Also check out the To-Do List for things that I will be doing in the future!
+Also check out the [To-Do List](https://github.com/Joystick299/JoystickTestMod/blob/master/todo.md "To-Do List") for things that I will be doing in the future!
 
