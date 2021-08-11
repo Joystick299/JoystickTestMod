@@ -1,6 +1,8 @@
 # JoystickTestMod
 
 A mod for 1.17.1
+This mod is just for learning purposes.
+If you have a comment/suggestion please post it in the comments section of the [CurseForge](https://www.curseforge.com/minecraft/mc-mods/joysticktestmod "CurseForge") I am always looking to improve and learn!
 
 Adds:
 - Nothing Item [MISC] (Used to craft the Nothing Block)
