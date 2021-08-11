@@ -8,3 +8,7 @@ Adds:
 - Nothing Item [MISC] (Used to craft the Nothing Block)
 - Nothing Block [DECORATIONS] (Breaks with a Hoe, drops 2-4 Nothing Items)
 - Nothing Food [FOOD] (Edible, gives speed 25 for 30 seconds, smelted into Nothing Items)
+
+
+Also check out the To-Do List for things that I will be doing in the future!
+
