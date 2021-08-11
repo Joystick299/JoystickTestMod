@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "joysticktestmod:nothing_food"
+      }
+    },
+    "result": {
+      "item": "joysticktestmod:nothing_item"
+    }
+  }
+  
