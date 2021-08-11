@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "joysticktestmod:nothing_food"
+    },
+    "result": "joysticktestmod:nothing_item",
+    "experience": 1,
+    "cookingtime": 10
+}
