@@ -11,6 +11,7 @@ Adds:
 - Nothing Item [MISC] (Used to craft the Nothing Block)
 - Nothing Block [DECORATIONS] (Breaks with a Hoe, drops 2-4 Nothing Items)
 - Nothing Food [FOOD] (Edible, gives speed 25 for 30 seconds, smelted into Nothing Items)
+- Nothing Ore [BUILDING_BLOCKS] (Generates in the terrain, drops Nothing Food)
 
 
 Also check out the [To-Do List](https://github.com/Joystick299/JoystickTestMod/blob/master/todo.md) for things that I will be doing in the future!
