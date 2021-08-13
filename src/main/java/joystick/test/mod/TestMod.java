@@ -1,7 +1,11 @@
+/*
+
+Welcome to JoystickTestMod
+
+*/
+
 package joystick.test.mod;
 
-
-import java.io.ObjectInputFilter.Config;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -9,9 +13,7 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
-import net.minecraft.client.gl.Uniform;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -20,7 +22,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
-import net.minecraft.world.gen.decorator.Decorator;
 import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
@@ -44,19 +45,27 @@ public class TestMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+
+	// Registry for Items
+		// Registering Nothing_Item
 		Registry.register(Registry.ITEM, new Identifier("joysticktestmod", "nothing_item"), NOTHING_ITEM);
 
+
+		// Registering Nothing_Block
 		Registry.register(Registry.BLOCK, new Identifier("joysticktestmod", "nothing_block"), NOTHING_BLOCK);
 		Registry.register(Registry.ITEM, new Identifier("joysticktestmod", "nothing_block"), new BlockItem(NOTHING_BLOCK, new Item.Settings().group(ItemGroup.DECORATIONS)));
 
+
+		// Registering Nothing_Food
 		Registry.register(Registry.ITEM, new Identifier("joysticktestmod", "nothing_food"), NOTHING_FOOD);
 		
-
+		// Registering Nothing_Ore
 		Registry.register(Registry.BLOCK, new Identifier("joysticktestmod", "nothing_ore"), NOTHING_ORE);
 		Registry.register(Registry.ITEM, new Identifier("joysticktestmod", "nothing_ore"), new BlockItem(NOTHING_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 
 		RegistryKey<ConfiguredFeature<?, ?>> nothingOreOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY, new Identifier("joysticktestmod", "nothing_ore"));
 		Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, nothingOreOverworld.getValue(), NOTHING_ORE_OVERWORLD);
+		// BiomeModifications is not supported right now, so it identifies as deprecated.
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, nothingOreOverworld);
 
 	}
