@@ -1,4 +1,5 @@
-# JoystickTestMod - v1.0.2
+#NOT BEING UPDATED ANYMORE CHECK OUT MY NEW MOD: [MickeyDees](https://github.com/Joystick299/MickeyDees)
+## JoystickTestMod - v1.0.2
 
 ### This mod requires [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
 
